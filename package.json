@@ -1,0 +1,35 @@
+{
+  "name": "srv-1299",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/openfin": "^51.0.0",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "hadouken-js-adapter": "^1.44.1",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "clone": "^2.1.2",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^4.4.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2"
+  }
+}

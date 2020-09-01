@@ -1,0 +1,13 @@
+{
+    "runtime": {
+        "version": "14.78.46.23"
+    },
+    "startup_app": {
+        "name": "test-1299",
+        "uuid": "test-1299",
+        "url": "http://localhost:8008/index.html",
+        "autoShow": true,
+        "defaultWidth": 800,
+        "defaultHeight": 600
+    }
+}
